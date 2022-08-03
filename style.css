@@ -1,0 +1,363 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.mainContainer {
+    padding: 40px 0;
+    background-color: #ffffff;
+}
+
+/********************* Navbar Section *********************/
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+}
+
+.navbar > .logo {
+    width: 120px;
+}
+
+a ~ a {
+    color: #808080;
+    margin-left: 40px;
+}
+
+.navBtn {
+    color: #369ac8;
+    border: 1px solid #369ac8;
+    background-color: transparent;
+    padding: 10px 25px;
+    font-size: 16px;
+    border-radius: 6px;
+    margin-left: 40px;
+    box-shadow: #369ac826 0px 1px 2px 0px, #369ac84d 0px 2px 6px 2px;
+}
+
+/********************* Hero Section *********************/
+
+.heroSection {
+    margin: 100px 0;
+    padding: 0 100px;
+}
+
+.heroCard {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: flex-start;
+    margin: 150px 0;
+}
+
+.middle {
+    padding-left: 100px ;
+}
+
+.heroCard > img {
+    min-width: 40vw;
+}
+
+.heroCard h1 {
+    font-size: 52px;
+}
+
+.desc {
+    font-size: 15px;
+    width: 70%;
+    line-height: 30px;
+    margin: 30px 0;
+}
+
+.heroSection button {
+    color: #ffffff;
+    border: 1px solid #369ac8;
+    background-image: linear-gradient(to right bottom, #66bbe3, #24aaee, #0097f7, #0081fb, #3465f6);
+    padding: 10px 25px;
+    font-size: 16px;
+    border-radius: 6px;
+    box-shadow: #369ac826 0px 1px 2px 0px, #369ac84d 0px 2px 6px 2px;
+}
+
+/********************* Service Section *********************/
+
+.serviceSection {
+    padding: 0 100px;
+}
+.serviceSection > .text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 60px 0;
+}
+
+.serviceSection > .text > h1 {
+    font-size: 48px;
+}
+
+.serviceSection > .text > .desc {
+    width: 50%;
+    color: #808080;
+}
+
+.serviceGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 80px;
+    column-gap: 60px;
+    margin-bottom: 150px;
+}
+
+.gItem > h4 {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+
+/********************* Pricing Section *********************/
+
+.pricingSection {
+    padding: 80px 100px 50px 100px;
+    background-image: linear-gradient(to right bottom, #66bbe3, #24aaee, #0097f7, #0081fb, #3465f6);
+}
+
+.pricingSection > h1 {
+    color: #ffffff;
+    font-size: 48px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.pricingSection > .cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cards > .card {
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 10px;
+}
+
+.top > h4 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.top > p {
+    color: #808080;
+    margin-bottom: 50px;
+}
+
+.contents > .content {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.content > p {
+    display: inline;
+}
+
+.bottom {
+    text-align: center;
+}
+
+.bottom > h3 {
+    font-size: 30px;
+}
+
+.bottom span {
+    color: #808080;
+}
+
+.bottom p {
+    color: #808080;
+    margin: 15px;
+}
+
+.cardBtn {
+    color: #369ac8;
+    border: 1px solid #369ac8;
+    background-color: transparent;
+    padding: 10px 25px;
+    font-size: 16px;
+    border-radius: 6px;
+    margin-top: 20px;
+    box-shadow: #369ac826 0px 1px 2px 0px, #369ac84d 0px 2px 6px 2px;
+}
+
+.cards > .active-card {
+    padding: 0;
+}
+
+.active-card .contents {
+    margin: 0 40px;
+}
+
+.active-top {
+    background-color: #1f1f1f;
+    padding: 30px 40px 30px 40px;
+    border-radius: 10px;
+}
+
+.active-top > h4{
+    color: #ffffff;
+}
+
+.active-top > p {
+    color: #ffffff;
+    margin-bottom: 0;
+    
+}
+
+.cardBtn-active {
+    color: #ffffff;
+    border: 1px solid #369ac8;
+    background-image: linear-gradient(to right bottom, #66bbe3, #24aaee, #0097f7, #0081fb, #3465f6);
+    padding: 10px 25px;
+    font-size: 16px;
+    border-radius: 6px;
+    box-shadow: #369ac826 0px 1px 2px 0px, #369ac84d 0px 2px 6px 2px;
+}
+
+/********************* Pricing Section *********************/
+
+.feedback {
+    padding: 150px 100px;
+}
+
+.feedback > .text {
+    text-align: center;
+}
+
+.feedback > .text > h1 {
+    font-size: 48px;
+}
+
+.feedback > .text > p {
+    color: #808080;
+    padding: 30px 15vw;
+}
+
+.feedbackGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.fGItems {
+    padding: 30px 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    border-radius: 5px;
+}
+
+.custDiv {
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    gap: 10px;
+}
+
+.custDiv > .name > p {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/********************* Pricing Section *********************/
+
+.register { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='100%25' width='100%25'%3E%3Cdefs%3E%3Cpattern id='doodad' width='300' height='300' viewBox='0 0 40 40' patternUnits='userSpaceOnUse' patternTransform='rotate(155)'%3E%3Crect width='100%25' height='100%25' fill='rgba(190, 227, 248,1)'/%3E%3Cpath d='M0 15h40v10h-40z' fill='rgba(144, 205, 244,1)'/%3E%3Cpath d='M-40 15h20l1 5l-1 5h-20l1-5zM0 15h20l1 5l-1 5h-20l1-5z' fill='rgba(144, 205, 244,1)'/%3E%3C/pattern%3E%3C/defs%3E%3Crect fill='url(%23doodad)' height='200%25' width='200%25'/%3E%3C/svg%3E ")
+}
+
+.wrapper {
+    padding: 100px 100px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to right bottom, hsla(199, 69%, 65%, 0.8), rgba(0, 163, 243, 0.8), rgba(0, 135, 255, 0.8), hsla(216, 100%, 50%, 0.8), rgba(5, 49, 245, 0.8));
+}
+
+.wrapper > .text > h1 {
+    color: #ffffff;
+    font-size: 48px;
+}
+
+.wrapper > .text > p {
+    color: #ffffff;
+    width: 43%;
+    margin-top: 30px;
+}
+
+.regBtn {
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    padding: 10px 25px;
+    font-size: 16px;
+    border-radius: 6px;
+    box-shadow: #369ac826 0px 1px 2px 0px, #369ac84d 0px 2px 6px 2px;
+}
+
+/********************* Footer Section *********************/
+
+footer {
+    padding: 150px 100px 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footerLogo {
+    width: 100px;
+}
+
+footer > .text {
+    width: 25%;
+
+}
+
+footer > .text > p {
+    color: #808080;
+    margin-top: 15px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+footer h4 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.link > p {
+    margin-top: 20px;
+    color: #808080;
+    font-size: 14px;
+}
+
+.social{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social > img {
+    width: 150px;
+    margin-top: 20px;
+}
